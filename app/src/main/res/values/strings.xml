@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">task3</string>
+    <string name="select_your_fevorate_programing_languge">Select Your Fevorate  languge</string>
+    <string-array name="languges">
+        <item>java </item>
+        <item>algo </item>
+        <item>mobile </item>
+        <item> c</item>
+        <item>c++ </item>
+        <item> c#</item>
+        <item> php</item>
+        <item> python</item>
+    </string-array>
+</resources>

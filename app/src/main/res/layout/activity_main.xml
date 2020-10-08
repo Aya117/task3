@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="8dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/select_your_fevorate_programing_languge"
+        android:textSize="10pt"
+        />
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinner"
+        android:layout_gravity="center"
+        android:entries="@array/languges"
+        android:layout_marginTop="10dp"/>
+<Button
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:text="submit"
+    android:layout_gravity="center"
+    android:id="@+id/btnsubmit"
+    android:onClick="btnSubmiyOnClick"
+
+    />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
